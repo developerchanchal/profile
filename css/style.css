@@ -1,0 +1,1059 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.color1{
+    color: #4D64DD !important;
+}
+.color2{
+    color: #788397!important;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.active{
+    color: #4D64DD !important;
+}
+img{
+    width: 100%;
+}
+
+
+
+
+/* Header Section */
+
+.header-section{
+    background: #ffffff url("../img/b1.jpg") no-repeat right top;
+    min-height: 820px;
+    background-size: 100%;
+    background-position: 0 100%;
+}
+.header-section ul li:hover a{
+    color: #4D63DE!important;
+}
+.header-nav{
+    background: white;
+}
+.header-nav {
+    padding: 0;
+}
+.header-section .container-fluid {
+    padding: 0;
+}
+.header-nav a.navbar-brand.color1{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.header-nav a.nav-link{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* Slider Section */
+.slider-sec {
+    margin-top: 170px;
+}
+.slider-sec .btn {
+    border: 1px solid #4D64DD;
+    color: #4D64DD;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: 12px 32px;
+}
+.slider-sec .btn:hover {
+    background: #4D64DD;
+}
+.slider-sec .btn:hover a {
+    color: white;
+}
+.hi-btn {
+    position: relative;
+}
+.hi-btn a {
+    color: #0056b3;
+}
+.hi-btn i {
+    position: absolute;
+    top: 64%;
+    left: 4%;
+    font-size: 1.7rem;
+    color: #4D64DD;
+}
+.slider-sec h1 {
+    margin-top: 2.5rem;
+    font-weight: 700;
+    font-size: 2.9rem;
+    letter-spacing: -1px;
+    color: #3a3838;
+}
+.slider-sec h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1.6rem;
+    color: #6c83ff;
+}
+.slider-sec p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: grey;
+    margin-top: 3rem;
+}
+.btn1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.btn1 .btn.btn-lg {
+    background: #4D64DD;
+    padding: 14px 28px;
+    box-shadow: unset;
+}
+.btn1 .btn.btn-lg a {
+    color: white;
+}
+.btn1 .btn:hover {
+    background: white;
+    box-shadow: 0px 0px 5px 0px #4D64DD;
+}
+.btn1 .btn:hover a{
+    color:#4D64DD !important;
+}
+.slider-sec ul {
+    padding: 0;
+    margin: 0;
+}
+.slider-sec ul li{
+    padding: 10px 0px;
+    padding-right: 20px;
+}
+.slider-sec ul li a{
+    font-weight: 600;
+    font-size: 1.0rem;
+    color: #6e6a6a;
+}
+
+
+/* Services section */
+
+section#services {
+    background: #f6f6f6;
+}
+#services p{
+    font-size: .9rem;
+    font-weight: 700;
+    color: #4e6ffc;
+    padding-top: 6rem;
+}
+#services h1{
+    font-weight: 800;
+    font-size: 2.0rem;
+    word-spacing: 3px;
+    line-height: 3rem;
+    padding: 0px 10px;
+    padding-bottom: 74px;
+    color: #413939;
+}
+.service-sec .col-lg-4 {
+    margin: 17px;
+    box-sizing: border-box;
+    max-width: 29%!important;
+    text-align: left;
+    padding: 66px 50px;
+    box-shadow: 0px -2px 25px -14px #dbcdcd;
+    position: relative;
+    border: 1px solid transparent;
+    transition: .3s;
+    background-color: white;
+}
+.arrow{
+    position: absolute;
+    left: 58px;
+    top: 101px;
+    font-size: 2rem;
+    color: #333333;
+    transition: .3s;
+}
+.service-sec span {
+    display: block;
+    height: 55px;
+    width: 72px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    background: #333333;
+    font-size: 1.3rem;
+    margin-bottom: 55px;
+    transition: .3s;
+}
+.service-sec h3 {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #5b4d4d;
+}
+.service-sec p {
+    color: #9d9d9d !important;
+    font-weight: 600!important;
+    padding-top: 6px !important;
+    line-height: 27px;
+    font-size: 1.0rem!important;
+}
+.service-sec a {
+    color: grey;
+    font-weight: 700;
+    font-size: .9rem;
+    margin-top: 34px;
+    display: block;
+}
+#con {
+    font-size: .9rem;
+    font-weight: 600;
+    color: grey !important;
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+
+
+.service-sec .col-lg-4:hover{
+    box-shadow: 0px -2px 25px -14px #4D64DD;
+    border: 1px solid #dce1fa;
+}
+.service-sec .col-lg-4:hover span{
+    background-color: #4D64DD !important;
+    
+}
+.service-sec .col-lg-4:hover .arrow{
+    color: #4D64DD !important;
+    
+}
+.service-sec .col-lg-4:hover a{
+    color: #4D64DD !important; 
+}
+
+
+/* profile */
+
+.pro1 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.pro1-row {
+    max-width: 32% !important;
+}
+.pro1 .col-3.text-right{
+    padding-right: 0;
+}
+.pro1 .col-3.text-right i{
+    font-size: 2rem;
+    padding-top: 10px;
+    color: #7979d4;
+}
+.pro1 h4{
+    font-size: .9rem;
+    color: #342828;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.pro2 h1{
+    font-weight: 800;
+    font-size: 2.0rem;
+    word-spacing: 3px;
+    line-height: 3rem;
+    padding: 0px 10px;
+    color: #413939;
+    padding-top: 54px;
+    padding-left: 0;
+}
+.pro2 h5{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1.6rem;
+    color: #6c83ff;
+}
+.pro2 p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: grey;
+    margin-top: 3rem;
+}
+.pro2-2 label{
+    padding-top: 41px;
+    font-weight: 700;
+}
+/* Resume */
+
+section.resume {
+    background: #F6F6F6;
+}
+.resume p{
+    font-size: .9rem;
+    font-weight: 700;
+    color: #4e6ffc;
+    padding-top: 6rem;
+}
+.resume h1{
+    font-weight: 800;
+    font-size: 2.0rem;
+    word-spacing: 3px;
+    line-height: 3rem;
+    padding: 0px 10px;
+    padding-bottom: 74px;
+    color: #413939;
+}
+.resume-box {
+    background: white;
+    padding: 30px 40px;
+    box-shadow: 0px 0px 37px -21px #b5b5ff;
+    margin-bottom: 26px;
+    transition: .3s;
+}
+.resume-box:hover {
+    box-shadow: 0px 0px 37px -6px #b5b5ff;
+}
+.r-sec-1 h3{
+    background: #4D63DD !important;
+    color: white !important;
+    width: 26% !important;
+    font-size: 1.0rem !important;
+    padding: 10px 20px !important;
+    position: relative;
+}
+.r-sec-1 h3 span{
+    position: absolute;
+    top: 61% !important;
+    left: 12% !important;
+    font-size: 1.4rem !important;
+    color: #4D63DD !important;
+}
+.r-sec-1 h4{
+    font-weight: 800 !important;
+    font-size: 1.1rem !important;
+    margin-top: 2rem !important;
+    color: #514b4b !important;
+    border-bottom: none!important;
+}
+.r-sec-1 h6{
+    color: grey !important;
+}
+.r-sec-1 p{
+    padding-top: 16px !important;
+    color: #a5a5a5 !important;
+    font-weight: 400 !important;
+}
+
+.r-sec-2 h4{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #5d5c5c;
+    padding-bottom: 20px;
+}
+
+
+.skill-1{
+    padding: 15px 0;
+}
+.skill-1 h6{
+    color: grey;
+    font-weight: 500;
+    font-size: 1.1rem;
+    position: relative;
+}
+.skill-1 h6 span {
+    position: absolute;
+    left: 89%;
+    border: 1px solid #4D63DD;
+    padding: 2px 6px;
+    font-size: .7rem;
+}
+.skill-1 h6 i {
+    position: absolute;
+    left: 90%;
+    top: 43%;
+    color: #4D63DD;
+}
+.skill-1 .skill-per {
+    height: 8px;
+    margin-top: 19px;
+    border: 1px solid;
+}
+.skill-1 .skill-per-1 {
+    background: #4D63DD;
+    height: 6px;
+    width: 92%;
+}
+.skill-2 h6 span {
+    left: 78%;
+}
+.skill-2 h6 i {
+    left: 79%;
+}
+.skill-2 .skill-per-1 {
+    width: 80%;
+}
+
+/* Gellery */
+
+.gellery p {
+    font-size: .9rem;
+    font-weight: 700;
+    color: #4e6ffc;
+    padding-top: 6rem;
+    margin: auto;
+    width: 100%;
+}
+.gellery h1{
+    font-weight: 800;
+    font-size: 2.0rem;
+    word-spacing: 3px;
+    line-height: 3rem;
+    padding: 0px 10px;
+    padding-bottom: 74px;
+    color: #413939;
+    padding-top: 2rem;
+    width: 70%;
+    margin: auto;
+}
+
+/* Experience Section */
+
+
+.exp-section{
+    background-color: #F6F6F6;
+}
+.exp-section h4{
+    font-weight: 800;
+    font-size: 2.0rem;
+    word-spacing: 3px;
+    line-height: 3rem;
+    padding-bottom: 0px;
+    color: #413939;
+    display: inline-block;
+    border-bottom: 1px solid #413939;
+    margin-top: 1rem !important;
+}
+.exp-section p{
+    font-weight: 500;
+    color: #747474;
+    font-size: 1rem;
+}
+.btn2 {
+    float: right;
+}
+.btn2 button.btn.btn-lg {
+    background: #f2f2ff;
+    border-radius: 5px;
+    transition: .3s;
+    
+}
+.btn2 button.btn.btn-lg:hover{
+    background: #4D63DD;
+    box-shadow: 0px 0px 5px 0px #4D64DD;
+}
+.btn2 button.btn.btn-lg:hover a{
+    color: white;
+}
+.btn2 button.btn.btn-lg a {
+    font-size: .8rem;
+}
+
+/* Contact Me */
+
+.contact  p{
+    font-size: .9rem;
+    font-weight: 700;
+    color: #4e6ffc;
+    padding-top: 6rem;
+    text-align: center;
+}
+.contact  h1{
+    font-weight: 800;
+    font-size: 2.0rem;
+    word-spacing: 3px;
+    line-height: 3rem;
+    padding: 0px 10px;
+    padding-bottom: 74px;
+    color: #413939;
+    padding-top: 1rem;
+    text-align: center;
+}
+input.form-control {
+    padding: 22px;
+}
+textarea.form-control {
+    padding-left: 22px;
+    padding-top: 16px;
+}
+.con-1 .btn1 .btn{
+    padding: 0 18px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.con-1 .btn1 {
+    margin-bottom: 3rem;
+}
+.con-1 .btn1 .btn a{
+    font-size: .8rem;
+}
+.con-2 .resume-box{
+    padding: 10px !important;
+    padding-left: 30px !important;
+}
+.con-2 .resume-box h3{
+    background: white!important;
+    color: #4D63DD !important;
+    padding-left: 0 !important;
+    padding-bottom: 0px !important;
+}
+.con-2 .resume-box h4{
+    margin-top: 13px !important;
+    color: grey !important;
+    font-weight: 500!important;
+    font-size: 1rem;
+}
+.con-2 .resume-box h4 a{
+    color: grey !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+/* Footer */
+
+
+.footer{
+    background-color: #F6F6F6;
+}
+.footer p {
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.footer p span{
+    color: #4e6ffc;
+}
+
+
+
+
+/* Responsive */
+
+.navbar-toggler {
+    border: 2px solid transparent;
+}
+.navbar-toggler i {
+    line-height: 2rem;
+    color: #696a74;
+    font-size: 1rem;
+}
+
+@media all and (max-width:1440px){
+    .header-section {
+        min-height: 100%;
+    }
+}
+
+@media all and (max-width:1200px){
+    .r-sec-1 h3 {
+        width: fit-content!important;
+    }
+}
+
+@media all and (max-width:1024px){
+    .pro1-row {
+        padding: 0;
+    }
+    .pro1 h4 {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    .pro1 p {
+        font-size: .8rem;
+    }
+    .pro1 .col-6.text-right i {
+        font-size: 1.5rem;
+    }
+    #services p {
+        font-size: .6rem;
+        padding-top: 2rem;
+    }
+    #services h1 {
+        font-size: 1.5rem;
+        word-spacing: 3px;
+        line-height: 2rem;
+        padding-bottom: 40px;
+    }
+    .service-sec .col-lg-4 {
+        margin: 8px;
+        max-width: 31%!important;
+        padding: 24px 10px;
+    }
+    .service-sec span {
+        height: 45px;
+        width: 56px;
+        line-height: 45px;
+        font-size: 1.1rem;
+        margin-bottom: 35px;
+    }
+    .arrow {
+        left: 7%;
+        top: 21.5%;
+        font-size: 1.5rem;
+    }
+    .service-sec h3 {
+        font-size: 1rem;
+    }
+    .service-sec p {
+        font-weight: 500!important;
+        padding-top: 6px !important;
+        line-height: 22px;
+        font-size: .8rem!important;
+    }
+    .service-sec a {
+        font-size: .7rem;
+        margin-top: 24px;
+    }
+    #services p {
+        font-size: .6rem;
+        padding-top: 2rem;
+    }
+    #con {
+        padding-bottom: 2rem;
+    }
+    .pro2 h1 {
+        font-weight: 700;
+        font-size: 1.9rem;
+        word-spacing: 0px;
+        line-height: 2.5rem;
+    }
+    .pro2 h5 {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 1.4rem;
+    }
+    .pro2 p {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+    .pro2-2 label {
+        font-size: .9rem;
+    }
+    .pro2-2 a{
+        font-size: .9rem;
+    }
+
+}
+
+@media all and (max-width:992px){
+    .header-section {
+        min-height: 0;
+    }
+    .header-nav a.navbar-brand.color1 {
+        font-size: 1.8rem;
+    }
+    .navbar-toggler-icon {
+        width: 1.1em;
+    }
+    .slider-sec {
+        margin-top: 11%;
+    }
+    .slider-sec .btn {
+        font-size: .9rem;
+        padding: .4rem 1rem;
+    }
+    .btn1 .btn.btn-lg {
+        padding: .5rem .7rem;
+    }
+    .btn1 .btn.btn-lg a {
+        font-size: .7rem;
+    }
+    .hi-btn a {
+        font-size: .7rem;
+    }
+    .hi-btn i {
+        top: 67%;
+        font-size: 1.3rem;
+    }
+    .slider-sec h1 {
+        margin-top: 1.9rem !important;
+        font-weight: 500;
+        font-size: 2.4rem;
+        letter-spacing: 0px;
+    }
+    .slider-sec h3 {
+        font-size: 1.0rem;
+        margin-top: 1.0rem;
+    }
+    .slider-sec p {
+        font-size: .8rem;
+        margin-top: 2rem;
+    }
+    .slider-sec .btn1 {
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .slider-sec ul li a {
+        font-size: .8rem;
+    }
+    .slider-sec ul {
+        width: 160%;
+    }
+}
+
+
+@media all and (max-width:768px){
+    .slider-sec .btn {
+        padding: .3rem 1rem;
+    }
+    .hi-btn a {
+        font-size: .6rem;
+        font-weight: 500;
+    }
+    .hi-btn i {
+        font-size: 1.1rem;
+    }
+    .slider-sec h1 {
+        margin-top: 1.1rem !important;
+        font-weight: 500;
+        font-size: 2.1rem;
+    }
+    .slider-sec h3 {
+        font-size: 1.0rem;
+        margin-top: .7rem;
+        font-weight: 500;
+    }
+    .slider-sec p {
+        font-size: .6rem;
+        margin-top: 1rem;
+        font-weight: 400;
+    }
+    .btn1 {
+        margin-top: 1.3rem;
+        margin-bottom: 0.2rem;
+    }
+    .btn1 .btn.btn-lg {
+        padding: .3rem .5rem;
+    }
+    .btn1 .btn.btn-lg a {
+        font-size: .6rem;
+        display: block;
+        padding: .4rem 0.3rem;
+    }
+    .slider-sec ul li {
+        padding-right: 14px;
+    }
+    .slider-sec ul li a {
+        font-size: .7rem;
+    }
+    .header-nav a.navbar-brand.color1 {
+        font-size: 1.6rem;
+    }
+    .navbar-toggler-icon {
+        width: 1.1em;
+    }
+    #services p {
+        font-size: .5rem;
+        padding-top: 1rem;
+    }
+    #services h1 {
+        font-size: 1.1rem;
+        word-spacing: 3px;
+        line-height: 1.4rem;
+        padding-bottom: 9px;
+        font-weight: 700;
+    }
+    .service-sec .col-lg-4 {
+        margin: 0px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        max-width: 100% !important;
+    }
+    .service-sec span {
+        height: 40px;
+        width: 50px;
+        line-height: 40px;
+        font-size: .9rem;
+        margin-bottom: 25px;
+    }
+    .arrow {
+        left: 6%;
+        top: 28%;
+        font-size: 1.3rem;
+    }
+    .service-sec h3 {
+        font-size: .9rem;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .service-sec p {
+        font-weight: 400!important;
+        padding-top: 6px !important;
+        line-height: 22px;
+        font-size: .6rem!important;
+        margin-bottom: 0rem;
+    }
+    .service-sec a {
+        font-size: .5rem;
+        margin-top: 17px;
+    }
+    .pro1-row {
+        max-width: 32% !important;
+    }
+    .pro1-row .row {
+        width: 100%;
+        padding-bottom: 1rem;
+        margin: 0;
+    }
+    .pro1 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: auto;
+    }
+    .pro1-row .col-3.text-right {
+        padding: 0;
+    }
+    .pro1-row .col-9.text-left {
+        padding-left: 9px;
+    }
+    .pro1 .col-6.text-right i {
+        font-size: 1.1rem;
+    }
+    .pro1 h4 {
+        font-size: .7rem;
+    }
+    .pro1 p {
+        font-size: .7rem;
+    }
+    .pro1 .col-3.text-right i {
+        padding-top: 0;
+    }
+    .pro2 h1 {
+        font-weight: 500;
+        font-size: 1.3rem;
+        word-spacing: 0px;
+        line-height: 1.5rem;
+    }
+    .pro2 h5 {
+        font-size: .9rem;
+        font-weight: 500;
+        margin-top: 1rem;
+    }
+    .pro2 h5 {
+        font-size: .9rem;
+        font-weight: 500;
+        margin-top: 1.5rem;
+    }
+    .pro2 p {
+        font-size: .9rem;
+        font-weight: 400;
+        margin-top: 1.5rem;
+    }
+    .pro2-2 label {
+        font-size: .8rem;
+    }
+    .pro2-2 a{
+        font-size: .8rem;
+    }
+    .btn2 {
+        float: left;
+    }
+    #services h1 {
+        padding: 0;
+        padding-bottom: 9px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        word-spacing: 2px;
+        line-height: 2.1rem;
+    }
+    .gellery ul.row {
+        padding: 0;
+    }
+    .gellery ul li {
+        box-shadow: 0px 0px 15px 0px #bfc1ca;
+        margin-bottom: 2rem;
+    }
+}
+
+@media all and (max-width:620px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media all and (max-width:500px){
+    .header-section {
+        background-size: 210% 98%;
+        background-position: 83% 100%;
+    }
+}
+
+@media all and (max-width:426px){
+    .header-nav a.navbar-brand.color1 {
+        font-size: 1rem;
+    }
+    .navbar-toggler i {
+        line-height: 2rem;
+        font-size: .7rem;
+    }
+    .slider-sec .btn {
+        padding: 0 .5rem;
+        line-height: 1rem;
+    }
+    .hi-btn a {
+        font-size: .4rem;
+        line-height: 1.2rem;
+    }
+    .hi-btn i {
+        font-size: 1.0rem;
+        top: 62%;
+    }
+    .slider-sec h1 {
+        margin-top: 1.0rem !important;
+        font-weight: 500;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .slider-sec h3 {
+        font-size: .8rem;
+        margin-top: .3rem;
+        font-weight: 400;
+    }
+    .slider-sec p {
+        font-size: .55rem;
+        margin-top: 0;
+        font-weight: 400;
+    }
+    .btn1 {
+        margin-top: 1rem;
+        margin-bottom: 0.2rem;
+    }
+    .btn1 .btn.btn-lg {
+        padding: 0rem .5rem;
+    }
+    .btn1 .btn.btn-lg a {
+        font-size: .4rem;
+    }
+    .slider-sec ul li {
+        padding-top: 0;
+    }
+    .slider-sec ul li a {
+        font-size: .5rem;
+    }
+    .pro1 .col-6.text-right i {
+        font-size: 1rem;
+    }
+    .pro1 h4 {
+        font-size: .6rem;
+    }
+    .pro1 p {
+        font-size: .6rem;
+    }
+    .gellery h1 {
+        font-weight: 600;
+        font-size: 2.0rem;
+        word-spacing: 3px;
+        line-height: 2.3rem;
+        width: 100%;
+    }
+}
+
+@media all and (max-width:376px){
+    .slider-sec {
+        margin-top: 5%;
+    }
+    .header-nav a.navbar-brand.color1 {
+        font-size: .8rem;
+    }
+    .navbar-toggler i {
+        line-height: 2rem;
+        font-size: .6rem;
+    }
+    .hi-btn a {
+        font-size: .3rem;
+    }
+    .btn {
+        padding: 0 .4rem;
+    }
+    .hi-btn i {
+        font-size: .8rem;
+        top: 70%;
+    }
+    .slider-sec h1 {
+        margin-top: .7rem !important;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .slider-sec h3 {
+        font-size: .6rem;
+        margin-top: .2rem;
+        font-weight: 400;
+    }
+    .slider-sec p {
+        font-size: .5rem;
+        margin-top: 0;
+        font-weight: 400;
+    }
+    .slider-sec .btn1 {
+        margin-top: .6rem;
+        margin-bottom: 0.2rem;
+    }
+    .btn1 .btn.btn-lg a {
+        font-size: .3rem;
+    }
+    .slider-sec ul li a {
+        font-size: .4rem;
+    }
+    #services p {
+        font-size: .5rem;
+        padding-top: 1rem;
+    }
+    #services h1 {
+        font-size: 1rem;
+        word-spacing: 0px;
+        line-height: 1.3rem;
+        font-weight: 400;
+    }
+    .service-sec .col-lg-4 {
+        margin-bottom: 0px;
+    }
+    .service-sec span {
+        height: 35px;
+        width: 45px;
+        line-height: 35px;
+        font-size: .6rem;
+        margin-bottom: 20px;
+    }
+    .arrow {
+        left: 5%;
+        top: 28%;
+        font-size: 1.1rem;
+    }
+    .service-sec h3 {
+        font-size: .8rem;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    .service-sec p {
+        font-weight: 300!important;
+        padding-top: 6px !important;
+        line-height: 22px;
+        font-size: .5rem!important;
+    }
+    #con {
+        font-weight: 400 !important;
+    }
+
+}
+
+@media all and (max-width:320px){
+    .header-nav a.navbar-brand.color1 {
+        font-size: .6rem;
+    }
+    .slider-sec h1 {
+        margin-top: .7rem !important;
+        font-weight: 400;
+        font-size: .8rem;
+    }
+}
