@@ -882,13 +882,6 @@ textarea.form-control {
     }
 }
 
-@media all and (max-width:500px){
-    .header-section {
-        background-size: 210% 98%;
-        background-position: 83% 100%;
-    }
-}
-
 @media all and (max-width:426px){
     .header-nav a.navbar-brand.color1 {
         font-size: 1rem;
